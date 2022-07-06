@@ -21,5 +21,8 @@ class MainActivity : AppCompatActivity() {
 
         Log.d("TAG", "privateKey: $privateKey")
         Log.d("TAG", "publicKey: $publicKey")
+
+        Log.d("TAG", "privateKey: ${getApiKey(1)}")
+        Log.d("TAG", "privateKey: ${getApiKey(2)}")
     }
 }
